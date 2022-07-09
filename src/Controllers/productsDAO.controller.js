@@ -81,4 +81,4 @@ export const updateProduct = async (req,res,next)=>{
       return next(error)
     }
 }
-productosApi.exit();
+

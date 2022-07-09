@@ -4,7 +4,6 @@ import ProductosDaoDB from "../DAO/productos.db.DAO.js";
 export default class ProductosApi {
   constructor() {
     this.productosDao = new ProductosDaoDB();
-    console.log(this.productosDao)
   }
 
   async agregar(prodParaAgregar) {

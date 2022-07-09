@@ -16,7 +16,7 @@ class MyMongoClient extends DbClient {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       });
-      console.log("base de datos conectada");
+      console.log("base de datos conectada",Config.db.name);
       this.connected = true;
     } catch (error) {
       throw new CustomError(500, "error al conectarse a mongodb 1", error);

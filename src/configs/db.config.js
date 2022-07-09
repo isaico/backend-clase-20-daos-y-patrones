@@ -19,7 +19,6 @@
 const Config = {
   db: {
       name: 'ecommerce',
-      collection: 'products',
       cnxStr: 'mongodb+srv://isaico:isaias159@cluster0.ai4r7.mongodb.net/',
       projection: {__v:0}
   }
